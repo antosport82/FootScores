@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="textRvItem">18sp</dimen>
+    <dimen name="textScorers">18sp</dimen>
+    <dimen name="titles">20sp</dimen>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0b5394</color>
+    <color name="colorPrimaryDark">#073763</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="backgroundScorer1">#bbdefb</color>
+    <color name="backgroundScorer2">#90caf9</color>
+    <color name="backgroundSelected">#242442</color>
+    <color name="textDefault">#FFF9C4</color>
+    <color name="textSelected">#E6EE9C</color>
+    <color name="textScorers">#333333</color>
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_games"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary" />
+
+    <TextView
+        android:id="@+id/tv_error_message"
+        style="@style/myTextViewMain" />
+
+    <!-- A progress bar that will be shown to users to indicate that recipe data is loading -->
+    <ProgressBar
+        android:id="@+id/pb_loading_indicator"
+        style="@style/myLoading" />
+
+</FrameLayout>

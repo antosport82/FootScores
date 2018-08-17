@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FootScores</string>
+    <string name="error_message">An error occurred</string>
+    <string name="error_message_no_connection">No connection available</string>
+    <string name="error_loading_data">Error while loading data</string>
+    <string name="error_message_no_favorites">No games have been added to the favourites yet</string>
+    <string name="flag_content">Flag of the country</string>
+    <string name="star_favorite">Star favorite</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_listview">Please add some matches to the favorites to see them in the widget</string>
+    <string name="notification_channel_name">scores_channel</string>
+    <string name="notification_title">New scores!</string>
+    <string name="notification_text">Check out the updated scores</string>
+    <string name="pref_last_notification">last_notification</string>
+    <string name="pref_activate_notification">activate_notifications</string>
+    <string name="games">games</string>
+    <string name="favorites">favorites</string>
+    <string name="picker">Please pick a game on the left to see details.</string>
+    <string name="saved_game_id">saved_game_id</string>
+    <string name="saved_game_type">saved_game_type</string>
+    <string name="your_favorites">Favourite Games</string>
+</resources>

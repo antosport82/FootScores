@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:id="@+id/widget_on"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/widget_title"
+            style="@style/myWidgetTitle"
+            android:layout_marginLeft="2dp"
+            android:layout_marginStart="2dp"
+            android:textAlignment="center"
+            android:text="@string/your_favorites" />
+
+        <ListView
+            android:id="@+id/widget_list_view"
+            style="@style/myListView" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/empty_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            style="@style/myWidgetTextView"
+            android:text="@string/empty_listview"
+            android:textAlignment="center" />
+
+    </RelativeLayout>
+
+</FrameLayout>
